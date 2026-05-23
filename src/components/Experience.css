@@ -1,0 +1,131 @@
+.experience-eyebrow {
+  margin-bottom: 2.5rem;
+}
+
+.experience-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.experience-item {
+  display: grid;
+  gap: 1rem 1.5rem;
+  grid-template-columns: auto 1fr;
+  padding-bottom: 2.5rem;
+}
+
+.experience-item:last-child {
+  padding-bottom: 0;
+}
+
+.experience-timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1rem;
+  padding-top: 0.35rem;
+}
+
+.experience-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+  flex-shrink: 0;
+}
+
+.experience-line {
+  position: absolute;
+  top: 1rem;
+  bottom: -2.5rem;
+  width: 1px;
+  background: var(--border-strong);
+}
+
+.experience-period {
+  grid-column: 2;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.experience-main {
+  grid-column: 2;
+}
+
+.experience-role {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.experience-company {
+  margin: 0.2rem 0 0.65rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.experience-summary {
+  margin: 0;
+  max-width: 36rem;
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+.experience-achievements {
+  grid-column: 2;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.experience-achievements li {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.experience-achievements li + li {
+  margin-top: 0.45rem;
+}
+
+.experience-achievements li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--text-subtle);
+}
+
+@media (min-width: 960px) {
+  .experience-item {
+    grid-template-columns: auto 8rem 1fr 1.2fr;
+    align-items: start;
+  }
+
+  .experience-period {
+    grid-column: 2;
+    padding-top: 0.1rem;
+  }
+
+  .experience-main {
+    grid-column: 3;
+  }
+
+  .experience-achievements {
+    grid-column: 4;
+    padding-top: 0.1rem;
+  }
+}
+
+@media (max-width: 959px) {
+  .experience-timeline {
+    grid-row: span 3;
+  }
+}
