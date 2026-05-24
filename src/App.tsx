@@ -1,5 +1,5 @@
 import { Hero } from './components/Hero'
-import { SelectedWork } from './components/SelectedWork'
+import { EngineeringFocus } from './components/EngineeringFocus'
 import { Experience } from './components/Experience'
 import { Skills } from './components/Skills'
 import { OpenSource } from './components/OpenSource'
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <SelectedWork />
+        <EngineeringFocus />
         <Experience />
         <Skills />
         <OpenSource />

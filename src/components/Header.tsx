@@ -3,7 +3,7 @@ import './Header.css'
 
 const navItems = [
   { href: '#about', label: 'About' },
-  { href: '#work', label: 'Work' },
+  { href: '#focus', label: 'Focus' },
   { href: '#experience', label: 'Experience' },
   { href: '#skills', label: 'Skills' },
   { href: '#open-source', label: 'Open Source' },

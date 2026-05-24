@@ -5,28 +5,31 @@ export const site = {
   bio: 'Senior Backend Engineer with 10+ years of experience designing, building, and scaling SaaS platforms, APIs, and distributed backend systems. Proven track record leading architecture initiatives and shipping business-critical features across globally distributed teams.',
   github: 'https://github.com/marcelonoguti',
   linkedin: 'https://linkedin.com/in/marcelonoguti',
-  projectsUrl: 'https://github.com/marcelonoguti',
-  projects: [
+  engineeringFocus: [
     {
-      title: 'Doctor Appointment API',
+      title: 'Backend Systems & APIs',
       description:
-        'RESTful API for medical appointment scheduling with real-time availability, automated reminders, and EMR integration.',
-      tags: ['Laravel', 'MySQL', 'Redis', 'Docker', 'API'],
-      icon: 'calendar' as const,
+        'Planning, building and deploying backend systems, APIs and operational workflows for SaaS products.',
     },
     {
-      title: 'Raffle Algorithm Engine',
+      title: 'Integrations & Platform Ecosystems',
       description:
-        'Probabilistic prize engine with transparent odds, audit trails, and configurable tier-based allocation.',
-      tags: ['PHP', 'Algorithms', 'Redis', 'Laravel'],
-      icon: 'brain' as const,
+        'Working with third-party platforms across payments, ecommerce, communications and business tooling.',
     },
     {
-      title: 'Microservice Integration Layer',
+      title: 'Cloud Infrastructure & Operations',
       description:
-        'Event-driven sync between CMS and legacy monolith with retry logic, dead-letter queues, and full observability.',
-      tags: ['Node.js', 'RabbitMQ', 'Docker', 'AWS'],
-      icon: 'layers' as const,
+        'Hands-on ownership of cloud environments, deployments, containers, databases, logging and operational infrastructure.',
+    },
+    {
+      title: 'Reliability & Production Problem Solving',
+      description:
+        'Debugging production issues, maintaining integrations, managing upgrades and improving operational robustness.',
+    },
+    {
+      title: 'Leadership, AI & Engineering Exploration',
+      description:
+        'Backend team leadership, technical direction and exploration of new technologies, tooling and engineering approaches.',
     },
   ],
   experience: [

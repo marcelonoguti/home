@@ -29,8 +29,8 @@ export function Hero() {
           <p className="hero-bio">{site.bio}</p>
 
           <div className="hero-actions">
-            <a href="#work" className="btn btn-primary">
-              View My Work
+            <a href="#focus" className="btn btn-primary">
+              Engineering Focus
               <IconArrowRight />
             </a>
             <a href="#contact" className="btn btn-ghost hero-touch">

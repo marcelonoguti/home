@@ -1,3 +1,4 @@
+import { site } from '../content/site'
 import './CodeWindow.css'
 
 export function CodeWindow() {
@@ -22,7 +23,7 @@ export function CodeWindow() {
           <span className="code-line">
             {'    '}
             <span className="code-prop">this</span>.role ={' '}
-            <span className="code-string">'Backend Architect'</span>;
+            <span className="code-string">'{site.role}'</span>;
           </span>
           <span className="code-line">
             {'    '}
