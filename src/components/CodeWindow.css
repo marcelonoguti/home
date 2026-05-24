@@ -66,3 +66,16 @@
 .code-string {
   color: #c3e88d;
 }
+
+@media (max-width: 767px) {
+  .code-window {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+  }
+
+  .code-window-body {
+    padding: 1rem;
+    font-size: 0.72rem;
+    line-height: 1.6;
+    -webkit-overflow-scrolling: touch;
+  }
+}

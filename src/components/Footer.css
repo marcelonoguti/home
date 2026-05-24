@@ -106,3 +106,23 @@
     align-items: start;
   }
 }
+
+@media (max-width: 767px) {
+  .footer {
+    padding-block: 2.5rem 1.5rem;
+  }
+
+  .footer-cta {
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .footer-links span {
+    word-break: break-word;
+  }
+
+  .footer-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

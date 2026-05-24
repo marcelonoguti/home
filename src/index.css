@@ -21,6 +21,7 @@
   --max-width: 72rem;
   --radius: 0.75rem;
   --radius-lg: 1rem;
+  --section-heading-gap: 2.5rem;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   line-height: 1.6;
   font-weight: 400;
@@ -34,6 +35,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 body {
@@ -70,7 +72,7 @@ main {
 }
 
 .section-eyebrow {
-  margin: 0;
+  margin: 0 0 var(--section-heading-gap);
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.14em;
@@ -136,7 +138,20 @@ main {
 }
 
 @media (max-width: 767px) {
+  :root {
+    --section-heading-gap: 2rem;
+  }
+
+  .container {
+    width: min(calc(100% - 1.5rem), var(--max-width));
+  }
+
   .section {
-    padding-block: 3.5rem;
+    padding-block: 3rem;
+  }
+
+  .btn {
+    white-space: normal;
+    text-align: center;
   }
 }

@@ -102,9 +102,29 @@
   }
 }
 
-@media (max-width: 959px) {
+@media (max-width: 767px) {
+  .hero {
+    padding-top: 2.5rem;
+  }
+
+  .hero-grid {
+    gap: 2rem;
+  }
+
+  .hero-name {
+    font-size: clamp(2.25rem, 10vw, 3rem);
+  }
+
+  .hero-headline {
+    font-size: 1.05rem;
+  }
+
+  .hero-bio {
+    font-size: 0.9rem;
+  }
+
   .hero-visual {
-    max-width: 28rem;
+    max-width: none;
   }
 }
 

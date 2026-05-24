@@ -6,7 +6,7 @@ export function OpenSource() {
   return (
     <section id="open-source" className="open-source section">
       <div className="container">
-        <p className="section-eyebrow open-source-eyebrow">Open Source</p>
+        <p className="section-eyebrow">Open Source</p>
 
         <ul className="open-source-list">
           {site.openSource.map((project) => (

@@ -5,7 +5,7 @@ export function EngineeringFocus() {
   return (
     <section id="focus" className="focus section">
       <div className="container">
-        <p className="section-eyebrow focus-eyebrow">Engineering Focus</p>
+        <p className="section-eyebrow">Engineering Focus</p>
 
         <div className="focus-grid">
           {site.engineeringFocus.map((item) => (

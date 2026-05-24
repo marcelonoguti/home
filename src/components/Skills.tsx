@@ -20,7 +20,7 @@ export function Skills() {
   return (
     <section id="skills" className="skills section">
       <div className="container">
-        <p className="section-eyebrow skills-eyebrow">Skills</p>
+        <p className="section-eyebrow">Skills</p>
 
         <div className="skills-grid">
           {site.skillGroups.map((group) => {

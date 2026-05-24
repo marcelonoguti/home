@@ -5,7 +5,7 @@ export function Experience() {
   return (
     <section id="experience" className="experience section">
       <div className="container">
-        <p className="section-eyebrow experience-eyebrow">Experience</p>
+        <p className="section-eyebrow">Experience</p>
 
         <ol className="experience-list">
           {site.experience.map((item, index) => (
