@@ -1,5 +1,4 @@
 import { site } from '../content/site'
-import { IconDownload } from './Icons'
 import './Header.css'
 
 const navItems = [
@@ -26,11 +25,6 @@ export function Header() {
             </a>
           ))}
         </nav>
-
-        <a href={site.resumeUrl} className="btn btn-outline header-resume" download>
-          <IconDownload />
-          Resume
-        </a>
       </div>
     </header>
   )

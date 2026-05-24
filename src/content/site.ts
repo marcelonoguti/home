@@ -1,12 +1,10 @@
 export const site = {
   name: 'Marcelo Noguti',
-  role: 'Principal Software Engineer',
+  role: 'Lead Backend Engineer',
   headline: 'Building scalable systems. Solving complex problems.',
-  bio: 'Principal Software Engineer with 10+ years of experience building scalable backend systems, APIs, and integrations. I turn complex business requirements into clean, maintainable solutions that teams can rely on.',
-  email: 'marcelo@techmail.com',
+  bio: 'Senior Backend Engineer with 10+ years of experience designing, building, and scaling SaaS platforms, APIs, and distributed backend systems. Proven track record leading architecture initiatives and shipping business-critical features across globally distributed teams.',
   github: 'https://github.com/marcelonoguti',
   linkedin: 'https://linkedin.com/in/marcelonoguti',
-  resumeUrl: '/resume.pdf',
   projectsUrl: 'https://github.com/marcelonoguti',
   projects: [
     {
@@ -33,39 +31,50 @@ export const site = {
   ],
   experience: [
     {
-      role: 'Principal Software Engineer',
-      company: 'Tech Solutions Inc.',
-      period: '2016 – Present',
+      role: 'Senior Software Engineer',
+      company: 'AgencyAnalytics',
+      period: 'Nov 2025 – May 2026',
       summary:
-        'Leading backend architecture and technical direction for enterprise SaaS products.',
+        'Remote role supporting reporting and dashboard workflows for a Toronto-based analytics platform.',
       achievements: [
-        'Architected REST API serving 80K+ daily requests with 99.9% uptime',
-        'Established Docker-based deployment pipeline cutting release time by 60%',
-        'Mentored team of 6 developers on Laravel best practices and system design',
+        'Led early LLM integration initiatives to introduce AI-powered capabilities into reporting and dashboard workflows',
+        'Improved backend reliability through monitoring, error tracking, and proactive production debugging, helping reduce customer churn risk',
       ],
     },
     {
-      role: 'Senior Backend Developer',
-      company: 'Digital Agency Co.',
-      period: '2013 – 2016',
+      role: 'Senior Software Engineer',
+      company: 'Grin Inc',
+      period: 'Aug 2024 – Nov 2025',
       summary:
-        'Built and maintained Laravel applications for high-traffic e-commerce and content platforms.',
+        'Remote role improving scalability and performance of core product workflows for brands with 1M+ followers.',
       achievements: [
-        'Delivered 12+ client projects on time with reusable component library',
-        'Optimized database queries reducing page load times by 40%',
-        'Integrated third-party payment and shipping APIs across multiple storefronts',
+        'Improved scalability and performance of core product workflows, helping reduce customer churn linked to platform responsiveness',
+        'Investigated customer-reported incidents and complex bugs using observability practices, cutting resolution time by 50%',
+        'Contributed to the product roadmap by evaluating technical feasibility and risks, enabling better planning and delivery efficiency',
       ],
     },
     {
-      role: 'Full Stack Developer',
-      company: 'Web Studio',
-      period: '2010 – 2013',
+      role: 'CTO',
+      company: 'AgileMS',
+      period: 'Aug 2022 – Aug 2024',
       summary:
-        'Full-stack development for marketing sites and CMS-powered web applications.',
+        'Led engineering strategy and backend architecture for the company’s SaaS platform in Florianópolis.',
       achievements: [
-        'Built custom CMS themes and plugins for 20+ client websites',
-        'Implemented responsive layouts and cross-browser compatibility standards',
-        'Collaborated directly with designers to translate mockups into production code',
+        'Managed backend team development and established observability practices with AWS CloudWatch to support 99.9%+ uptime',
+        'Introduced CI/CD pipelines, frontend architecture improvements, and engineering practices that accelerated delivery velocity',
+        'Partnered with product stakeholders to balance technical debt, scalability, and business priorities',
+      ],
+    },
+    {
+      role: 'Principal Backend Engineer',
+      company: 'AgileMS',
+      period: 'Oct 2017 – Aug 2022',
+      summary:
+        'Architected and scaled the company’s core backend platform from inception through growth.',
+      achievements: [
+        'Architected and delivered the company’s core API from inception, establishing the technical foundation for the platform',
+        'Led backend engineering initiatives across architecture, implementation, deployment, and scaling',
+        'Defined API standards and cross-team integration protocols between frontend and backend systems',
       ],
     },
   ],
@@ -77,7 +86,6 @@ export const site = {
         'PHP / Laravel',
         'Node.js',
         'REST APIs',
-        'Express',
         'API Design',
         'Microservices',
       ],
@@ -87,8 +95,6 @@ export const site = {
       icon: 'database' as const,
       items: [
         'MySQL',
-        'PostgreSQL',
-        'MongoDB',
         'Redis',
         'Database Design',
         'Query Optimization',
@@ -97,7 +103,7 @@ export const site = {
     {
       title: 'Infrastructure',
       icon: 'cloud' as const,
-      items: ['Docker', 'AWS', 'Linux', 'CI/CD', 'Nginx', 'Monitoring'],
+      items: ['Docker', 'AWS', 'CI/CD', 'Monitoring', 'Observability'],
     },
     {
       title: 'Engineering',
@@ -105,7 +111,6 @@ export const site = {
       items: [
         'System Design',
         'Architecture',
-        'Code Review',
         'Technical Leadership',
         'Agile',
       ],
@@ -114,11 +119,10 @@ export const site = {
       title: 'AI & Tools',
       icon: 'sparkles' as const,
       items: [
-        'OpenAI / LLMs',
+        'Laravel AI SDK',
         'Prompt Engineering',
-        'Git',
-        'Jira',
-        'Figma (basic)',
+        'Tool Integration',
+        'Structured Output Schemas',
       ],
     },
   ],

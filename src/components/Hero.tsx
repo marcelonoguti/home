@@ -2,10 +2,8 @@ import { site } from '../content/site'
 import { CodeWindow } from './CodeWindow'
 import {
   IconArrowRight,
-  IconDownload,
   IconGithub,
   IconLinkedin,
-  IconMail,
 } from './Icons'
 import './Hero.css'
 
@@ -35,10 +33,6 @@ export function Hero() {
               View My Work
               <IconArrowRight />
             </a>
-            <a href={site.resumeUrl} className="btn btn-outline" download>
-              <IconDownload />
-              Download Resume
-            </a>
             <a href="#contact" className="btn btn-ghost hero-touch">
               Get In Touch
               <IconArrowRight />
@@ -51,9 +45,6 @@ export function Hero() {
             </a>
             <a href={site.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
               <IconLinkedin />
-            </a>
-            <a href={`mailto:${site.email}`} aria-label="Email">
-              <IconMail />
             </a>
           </div>
         </div>

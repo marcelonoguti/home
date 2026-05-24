@@ -1,5 +1,5 @@
 import { site } from '../content/site'
-import { IconChevronUp, IconGithub, IconLinkedin, IconMail } from './Icons'
+import { IconChevronUp, IconGithub, IconLinkedin } from './Icons'
 import './Footer.css'
 
 export function Footer() {
@@ -18,15 +18,6 @@ export function Footer() {
           </div>
 
           <ul className="footer-links">
-            <li>
-              <a href={`mailto:${site.email}`}>
-                <IconMail />
-                <span>
-                  <strong>Email</strong>
-                  {site.email}
-                </span>
-              </a>
-            </li>
             <li>
               <a href={site.linkedin} target="_blank" rel="noreferrer">
                 <IconLinkedin />
