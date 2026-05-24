@@ -1,6 +1,4 @@
-# home
-
-Personal landing page for recruiters — a static React site built with Vite.
+Marcelo Noguti Landing Page — a static React site built with Vite.
 
 ## Stack
 
@@ -35,4 +33,4 @@ Build the static site with:
 npm run build
 ```
 
-The output is in `dist/`
+The output is in `dist/`. For publishing, move it to `/docs`
