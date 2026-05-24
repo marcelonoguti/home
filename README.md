@@ -26,9 +26,6 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 | `npm run preview` | Preview the production build locally |
 | `npm run lint` | Run ESLint |
 
-## Customize content
-
-Edit `src/content/site.ts` to update your name, links, projects, experience, and skills. Section components live in `src/components/`.
 
 ## Deploy
 
@@ -38,4 +35,4 @@ Build the static site with:
 npm run build
 ```
 
-The output is in `dist/` and can be deployed to GitHub Pages, Netlify, Vercel, Cloudflare Pages, or any static host.
+The output is in `dist/`
