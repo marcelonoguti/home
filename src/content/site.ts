@@ -38,7 +38,7 @@ export const site = {
       company: 'AgencyAnalytics',
       period: 'Nov 2025 – May 2026',
       summary:
-        'Remote role supporting reporting and dashboard workflows for a Toronto-based analytics platform.',
+        'Remote role on a platform that helps marketing agencies build, manage, and deliver client reports and dashboards.',
       achievements: [
         'Led early LLM integration initiatives to introduce AI-powered capabilities into reporting and dashboard workflows',
         'Improved backend reliability through monitoring, error tracking, and proactive production debugging, helping reduce customer churn risk',
