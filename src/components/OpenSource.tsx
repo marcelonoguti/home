@@ -4,9 +4,9 @@ import './OpenSource.css'
 
 export function OpenSource() {
   return (
-    <section id="open-source" className="open-source section">
+    <section id="open-source" className="open-source section" aria-labelledby="open-source-heading">
       <div className="container">
-        <p className="section-eyebrow">Open Source</p>
+        <h2 id="open-source-heading" className="section-eyebrow">Open Source</h2>
 
         <ul className="open-source-list">
           {site.openSource.map((project) => (

@@ -1,3 +1,7 @@
+.experience-item > article {
+  display: contents;
+}
+
 .experience-list {
   margin: 0;
   padding: 0;

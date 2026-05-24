@@ -9,7 +9,7 @@ import './Hero.css'
 
 export function Hero() {
   return (
-    <section id="about" className="hero section">
+    <section id="about" className="hero section" aria-labelledby="hero-name">
       <div className="container hero-grid">
         <div className="hero-copy">
           <p className="hero-role">
@@ -17,7 +17,7 @@ export function Hero() {
             {site.role}
           </p>
 
-          <h1 className="hero-name">{site.name}</h1>
+          <h1 id="hero-name" className="hero-name">{site.name}</h1>
 
           <p className="hero-headline">
             {site.headline}

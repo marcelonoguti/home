@@ -18,9 +18,9 @@ const skillIcons = {
 
 export function Skills() {
   return (
-    <section id="skills" className="skills section">
+    <section id="skills" className="skills section" aria-labelledby="skills-heading">
       <div className="container">
-        <p className="section-eyebrow">Skills</p>
+        <h2 id="skills-heading" className="section-eyebrow">Skills</h2>
 
         <div className="skills-grid">
           {site.skillGroups.map((group) => {

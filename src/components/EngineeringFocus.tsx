@@ -3,9 +3,9 @@ import './EngineeringFocus.css'
 
 export function EngineeringFocus() {
   return (
-    <section id="focus" className="focus section">
+    <section id="focus" className="focus section" aria-labelledby="focus-heading">
       <div className="container">
-        <p className="section-eyebrow">Engineering Focus</p>
+        <h2 id="focus-heading" className="section-eyebrow">Engineering Focus</h2>
 
         <div className="focus-grid">
           {site.engineeringFocus.map((item) => (

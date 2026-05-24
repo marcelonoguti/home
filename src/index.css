@@ -78,6 +78,7 @@ main {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--text-subtle);
+  line-height: 1.4;
 }
 
 .btn {

@@ -3,13 +3,14 @@ import './Experience.css'
 
 export function Experience() {
   return (
-    <section id="experience" className="experience section">
+    <section id="experience" className="experience section" aria-labelledby="experience-heading">
       <div className="container">
-        <p className="section-eyebrow">Experience</p>
+        <h2 id="experience-heading" className="section-eyebrow">Experience</h2>
 
         <ol className="experience-list">
           {site.experience.map((item, index) => (
             <li key={`${item.company}-${item.period}`} className="experience-item">
+              <article>
               <div className="experience-timeline">
                 <span className="experience-dot" aria-hidden="true" />
                 {index < site.experience.length - 1 && (
@@ -30,6 +31,7 @@ export function Experience() {
                   <li key={achievement}>{achievement}</li>
                 ))}
               </ul>
+              </article>
             </li>
           ))}
         </ol>
