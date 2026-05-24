@@ -126,4 +126,13 @@ export const site = {
       ],
     },
   ],
+  openSource: [
+    {
+      name: 'Laravel Boleto',
+      url: 'https://github.com/eduardokum/laravel-boleto',
+      period: '2019',
+      description:
+        'Contributions to a Laravel package for generating boletos and CNAB remittance files, a widely used payment method in Brazil.',
+    },
+  ],
 } as const
